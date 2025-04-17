@@ -45,17 +45,13 @@ class ButtonsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! ButtonsTableViewCell
-        
+        // Configure the cell...
         let fruit = fruits[indexPath.row]
         
         cell.fruitImageView.image = fruit.emoji.emojiToImage()
         cell.fruitNameLabel.text = fruit.name
         cell.fruitPriceLabel.text = "\(fruit.price) $"
 
-        // Configure the cell...
-
-        
-        
         return cell
     }
 
