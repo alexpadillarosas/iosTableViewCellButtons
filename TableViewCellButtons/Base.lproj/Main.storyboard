@@ -31,7 +31,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kiwi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cp-zk-NTC">
-                                            <rect key="frame" x="79" y="19.5" width="109" height="21"/>
+                                            <rect key="frame" x="79" y="20" width="109" height="20.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="109" id="vxX-rD-SEX"/>
                                             </constraints>
@@ -40,7 +40,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="29.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ath-Ho-zLa">
-                                            <rect key="frame" x="205" y="19.5" width="59" height="21"/>
+                                            <rect key="frame" x="205" y="20" width="59" height="20.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="59" id="Iem-Oi-GxL"/>
                                             </constraints>
